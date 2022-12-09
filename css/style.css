@@ -249,6 +249,9 @@ footer .footer-block ul li a:hover {
 }
 
 @media (max-width: 767px) {
+  ::-webkit-scrollbar {
+    width: 0;
+  }
   header .hamburger-menu {
     display: block;
   }

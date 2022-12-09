@@ -370,6 +370,8 @@ footer {
 }
 
 @media (max-width: 767px) {
+    ::-webkit-scrollbar { width: 0;}
+
     header {
         .hamburger-menu {
             display: block;
